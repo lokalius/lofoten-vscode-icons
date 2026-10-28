@@ -1,44 +1,45 @@
 {
-    "name": "simple-icons",
-    "displayName": "Simple Icons",
-    "author": { 
-        "name": "Comdec_"
-     },
-    "publisher": "comdec",
-    "description": "BETA version of simple icon theme",
-    "version": "0.1.6",
-    "engines": {
-        "vscode": "^1.63.0"
-    },
-    "icon": "LOGO.png",
-    "repository": {
-		"type": "git",
-		"url": "https://github.com/Comdec35000/Simple-Icons"
-	},
-    "bugs": {
-        "url": "https://github.com/Comdec35000/Simple-Icons/issues/new"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-		"icons",
-		"theme",
-		"icon-theme",
-		"customization",
-        "simple"
-	],
-    "extensionKind": [
-		"ui",
-		"workspace"
-	],
-    "contributes": {
-        "iconThemes": [
-            {
-              "id": "simple-icons",
-              "label": "Simple Icons",
-              "path": "./themes/icons/default-icon-theme.json"
-            }
-          ]
-    }
+  "name": "lofoten-icons",
+  "displayName": "Lofoten Icons",
+  "description": "VS Code theme",
+  "version": "1.0.0",
+  "publisher": "Prisvrax",
+  "author": {
+    "name": "Prisvrax"
+  },
+  "engines": {
+    "vscode": "^1.131.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "icons",
+    "theme",
+    "icon-theme",
+    "lofoten"
+  ],
+  "license": "BSD-3-Clause",
+  "homepage": "https://github.com/lokalius/lofoten-vscode-icons/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lokalius/lofoten-vscode-icons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lokalius/lofoten-vscode-icons/issues"
+  },
+  "icon": "icon.png",
+  "extensionKind": [
+    "ui",
+    "workspace"
+  ],
+  "contributes": {
+    "iconThemes": [
+      {
+        "id": "lofoten-icons",
+        "label": "Lofoten Icons",
+        "path": "./themes/lofoten-icons.json"
+      }
+    ]
+  }
 }
